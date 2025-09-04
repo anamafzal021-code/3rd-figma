@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Playfair Display', serif;
+  overflow-x: hidden;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 464px;
+    height: 498px;
+    margin-left: 126px;
+    margin-top: 157px;
+}
+.content h1{
+    font-size: 64px;
+    width: 464px;
+    min-height: 240px;
+    line-height: 80px;
+}
+.content p{
+    width: 412px;
+    min-height: 128px;
+    font-size: 24px;
+     
+    color: #363031;
+}
+
+.btn{
+    background-color: #A36A4F;
+    color: #FFFFFF;
+    font-size: 24px;
+    /* padding: 24px 48px; */
+    display: inline-flex;      /* agar andar icon/text gap use karna ho */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 179px;
+    min-height: 66px;
+    border: none;
+    border-radius: 36px;
+}
+
+.hero{
+    margin-top: 64px; 
+    position: relative;
+    margin-right: 126px;
+}
+
+.img1{
+    position: absolute;
+    clip-path: circle(50%);
+}
+.img2{
+    position: absolute;
+    /* margin-top: 344.48px;  */
+    padding-top: 300px;
+    padding-left: 190px;
+}
+.main{
+    display: flex;
+    align-content: center;
+     gap: 160px;
+     flex-wrap: wrap;
+}
+ 
+
+.outer{
+    font-family: 'Poppins', sans-serif;
+     
+}
+ 
+
+.imagesbottom{
+    font-family: 'Poppins', sans-serif;
+}
+.outer{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+}
+.inner{
+    display: flex;
+     
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    gap: 88px;
+    background-color: #ECDAC4;
+    width: 878px;
+    height: 188px;
+    padding: 24px 96px;
+    border-radius: 80px;
+}
+
+.inner h1{
+    color: #363031;
+
+}
+.inner p{
+    font-weight: normal;
+    font-size: 1rem;
+    color: #363031
+}
+/* .circle >img{
+    color: #363031;
+} */
+.circle{
+    background-color: #FFFFFF;
+    opacity: 0.35;
+    height: 36px;
+    width: 36px;
+    position: relative;
+    clip-path: circle(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.imagesbottom{
+    z-index: 1;
+    bottom: 80px;
+    position: absolute;
+    background-color: #363032;
+    width: 100vw;
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    top: 809px;
+    padding-bottom: 46px;
+}
+.outerframe{
+     
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.innerframe p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 300;
+}
+ 
